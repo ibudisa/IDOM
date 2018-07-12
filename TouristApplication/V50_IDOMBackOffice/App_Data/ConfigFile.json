@@ -1,0 +1,23 @@
+[
+  {
+    "Key": "MongoUrl",
+    "Value": "mongodb://idomreisen:idomreisen2012@adriabook.eu:27017/admin",
+    "KeyType": "System.String"
+  },
+  {
+    "Key": "MongoDB",
+    "Value": "IdomReisenBackOffice",
+    "KeyType": "System.String"
+  },
+  {
+    "Key": "Season",
+    "Value": "2018",
+    "KeyType": "System.Int"
+  },
+  {
+    "Key": "Date",
+    "Value": "12.05.2018",
+    "KeyType": "System.DateTime"
+  }
+ 
+]

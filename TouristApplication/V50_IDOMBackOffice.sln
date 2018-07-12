@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V50_IDOMBackOffice", "V50_IDOMBackOffice\V50_IDOMBackOffice.csproj", "{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V50_IDOMBackOffice.PlugIn.Controller", "V50_IDOMBackOffice.PlugIn.Controller\V50_IDOMBackOffice.PlugIn.Controller.csproj", "{2D9D9F68-C6D2-4C0D-ACC5-9157D811D7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdomOffice.PlugIn.BackOffice", "QTouristikFramework\PlugIn\IdomReisen.PlugIn.BackOffice\IdomOffice.PlugIn.BackOffice.csproj", "{D662EBF3-FDE9-40D0-951F-FEE9191DDF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdomOffice.Interface.BackOffice", "QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\IdomOffice.Interface.BackOffice.csproj", "{2BD243A4-5E4B-4341-AB76-5AED2489ED32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9D9F68-C6D2-4C0D-ACC5-9157D811D7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9D9F68-C6D2-4C0D-ACC5-9157D811D7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9D9F68-C6D2-4C0D-ACC5-9157D811D7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9D9F68-C6D2-4C0D-ACC5-9157D811D7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D662EBF3-FDE9-40D0-951F-FEE9191DDF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D662EBF3-FDE9-40D0-951F-FEE9191DDF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D662EBF3-FDE9-40D0-951F-FEE9191DDF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D662EBF3-FDE9-40D0-951F-FEE9191DDF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD243A4-5E4B-4341-AB76-5AED2489ED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD243A4-5E4B-4341-AB76-5AED2489ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD243A4-5E4B-4341-AB76-5AED2489ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD243A4-5E4B-4341-AB76-5AED2489ED32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E3F78A3-B9E9-48C9-B732-6E43473E1573}
+	EndGlobalSection
+EndGlobal

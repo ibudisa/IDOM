@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "1fdf2437-f170-4540-ac2b-e323d27670d5",
+    "FirstName": "Ivan",
+    "LastName": "Budisa",
+    "Email": "ibudisa11@gmail.com",
+    "UserName": "ivan",
+    "Password": "y4rLEuidPtfQYnz10GWaqsROPVLvfSrS3zhB1ShEOTvWn7g97C6mWtuieIBXkN/B8gdUR7Hj+QgOVcdu2NCj8w==",
+    "PasswordSalt": "100000.1MQwo8y3mhoqkPyC9Bo36MA4uAn5zZJFFx44XC6+W+h01Q==",
+    "IPAddressDatabase": "94.23.164.152:27017/IDOM_BackOffice_Test",
+    "Season": "2017"
+  },
+  {
+    "Id": "de43168e-28b6-42f0-ac65-a5eb6954426d",
+    "FirstName": "Damir",
+    "LastName": "Nikip",
+    "Email": "damir@vip.hr",
+    "UserName": "damir",
+    "Password": "lqx3VFlklYiUWIu7GoyhqmCDFXWhCgWf8GKX67G5d5c6CmAd/vl0zo08h/WCE0Z6v2wlJkXdH7E4Z3e1ewQKJQ==",
+    "PasswordSalt": "100000./gnZRp+dd8sdc3HBklhLkgtwLUyFftxXxMEVKJ7qdQp9Yw==",
+    "IPAddressDatabase": "127.0.0.1",
+    "Season": "2017"
+  }
+]

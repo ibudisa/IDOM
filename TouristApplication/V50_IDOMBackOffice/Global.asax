@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="V50_IDOMBackOffice.Global_asax" Language="C#" %>

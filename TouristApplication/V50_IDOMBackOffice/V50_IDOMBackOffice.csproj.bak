@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E946A116-6A2A-4C90-8989-A89D7A9DBC6F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>V50_IDOMBackOffice</RootNamespace>
+    <AssemblyName>V50_IDOMBackOffice</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Web.Resources.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterSuccess.aspx" />
+    <Content Include="AspxArea\Booking\Forms\BookingProcessView.aspx" />
+    <Content Include="AspxArea\Booking\Forms\CustomerView.aspx" />
+    <Content Include="AspxArea\Booking\Forms\RegionView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\CountryView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\PlaceView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\RegionView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\TouristSiteView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\TouristUnitView.aspx" />
+    <Content Include="AspxArea\MasterData\Forms\UnitOfferView.aspx" />
+    <Content Include="AspxArea\PriceList\Controls\PriceListControl.ascx" />
+    <Content Include="AspxArea\PriceList\Forms\PurchasePriceForm.aspx" />
+    <Content Include="Content\Images\Add.png" />
+    <Content Include="Content\Images\AquaHeader.jpg" />
+    <Content Include="Content\Images\BlackGlassHeader.jpg" />
+    <Content Include="Content\Images\GlassHeader.jpg" />
+    <Content Include="Content\Images\PlasticBlueHeader.jpg" />
+    <Content Include="Content\Images\RedWineHeader.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Light.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Root.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterSuccess.aspx.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterSuccess.aspx.designer.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Controllers\RegionViewController.cs" />
+    <Compile Include="AspxArea\Booking\Forms\BookingProcessView.aspx.cs">
+      <DependentUpon>BookingProcessView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Forms\BookingProcessView.aspx.designer.cs">
+      <DependentUpon>BookingProcessView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Forms\CustomerView.aspx.cs">
+      <DependentUpon>CustomerView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Forms\CustomerView.aspx.designer.cs">
+      <DependentUpon>CustomerView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Forms\RegionView.aspx.cs">
+      <DependentUpon>RegionView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Forms\RegionView.aspx.designer.cs">
+      <DependentUpon>RegionView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\Booking\Models\BookingProcessViewModel.cs" />
+    <Compile Include="AspxArea\Booking\Models\CustomerViewModel.cs" />
+    <Compile Include="AspxArea\Booking\Models\RegionViewModel.cs" />
+    <Compile Include="AspxArea\Booking\Repositorys\MasterDataRepository.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\CountryViewController.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\PlaceViewController.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\RegionViewController.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\TouristSiteController.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\TouristUnitController.cs" />
+    <Compile Include="AspxArea\MasterData\Controllers\UnitOfferController.cs" />
+    <Compile Include="AspxArea\MasterData\Forms\CountryView.aspx.cs">
+      <DependentUpon>CountryView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\CountryView.aspx.designer.cs">
+      <DependentUpon>CountryView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\PlaceView.aspx.cs">
+      <DependentUpon>PlaceView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\PlaceView.aspx.designer.cs">
+      <DependentUpon>PlaceView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\RegionView.aspx.cs">
+      <DependentUpon>RegionView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\RegionView.aspx.designer.cs">
+      <DependentUpon>RegionView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\TouristSiteView.aspx.cs">
+      <DependentUpon>TouristSiteView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\TouristSiteView.aspx.designer.cs">
+      <DependentUpon>TouristSiteView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\TouristUnitView.aspx.cs">
+      <DependentUpon>TouristUnitView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\TouristUnitView.aspx.designer.cs">
+      <DependentUpon>TouristUnitView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\UnitOfferView.aspx.cs">
+      <DependentUpon>UnitOfferView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Forms\UnitOfferView.aspx.designer.cs">
+      <DependentUpon>UnitOfferView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\MasterData\Models\CountryViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Models\PlaceViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Models\RegionViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Models\TouristSiteViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Models\TouristUnitViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Models\UnitOfferViewModel.cs" />
+    <Compile Include="AspxArea\MasterData\Repositorys\MasterDataRepository.cs" />
+    <Compile Include="AspxArea\PriceList\Controllers\IPricelistController.cs" />
+    <Compile Include="AspxArea\PriceList\Controllers\PurchasePriceFormController.cs" />
+    <Compile Include="AspxArea\PriceList\Controls\PriceListControl.ascx.cs">
+      <DependentUpon>PriceListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\PriceList\Controls\PriceListControl.ascx.designer.cs">
+      <DependentUpon>PriceListControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\PriceList\Forms\PurchasePriceForm.aspx.cs">
+      <DependentUpon>PurchasePriceForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxArea\PriceList\Forms\PurchasePriceForm.aspx.designer.cs">
+      <DependentUpon>PurchasePriceForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxArea\PriceList\Models\PriceListModel.cs" />
+    <Compile Include="AspxArea\PriceList\Repositorys\PriceListRepository.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Light.master.cs">
+      <DependentUpon>Light.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Light.master.designer.cs">
+      <DependentUpon>Light.master</DependentUpon>
+    </Compile>
+    <Compile Include="Main.master.cs">
+      <DependentUpon>Main.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.master.designer.cs">
+      <DependentUpon>Main.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Root.master.cs">
+      <DependentUpon>Root.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Root.master.designer.cs">
+      <DependentUpon>Root.master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="AspxArea\Account\Controllers\" />
+    <Folder Include="AspxArea\Account\Controls\" />
+    <Folder Include="AspxArea\Account\Forms\" />
+    <Folder Include="AspxArea\Account\Models\" />
+    <Folder Include="AspxArea\Account\Repositorys\" />
+    <Folder Include="AspxArea\Booking\Controls\" />
+    <Folder Include="AspxArea\MasterData\Controllers\Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\QTouristik.Interface.BackOffice.csproj">
+      <Project>{2bd243a4-5e4b-4341-ab76-5aed2489ed32}</Project>
+      <Name>QTouristik.Interface.BackOffice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\V50_IDOMBackOffice.PlugIn.Controller\V50_IDOMBackOffice.PlugIn.Controller.csproj">
+      <Project>{2d9d9f68-c6d2-4c0d-acc5-9157d811d7ed}</Project>
+      <Name>V50_IDOMBackOffice.PlugIn.Controller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62851</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62851/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

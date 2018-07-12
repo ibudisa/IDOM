@@ -1,0 +1,8 @@
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\obj\Debug\IdomOffice.Interface.BackOffice.csproj.CoreCompileInputs.cache
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\bin\Debug\IdomOffice.Interface.BackOffice_v1.5.dll
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\bin\Debug\IdomOffice.Interface.BackOffice_v1.5.pdb
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\bin\Debug\QTouristik.Data_v1.5.dll
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\obj\Debug\IdomOffice.Interface.BackOffice_v1.5.dll
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\obj\Debug\IdomOffice.Interface.BackOffice_v1.5.pdb
+E:\Projects\QTouristikFramework\Interface\IdomOffice.Interface.BackOffice\obj\Debug\IdomOffice.Interface.BackOffice.csprojResolveAssemblyReference.cache

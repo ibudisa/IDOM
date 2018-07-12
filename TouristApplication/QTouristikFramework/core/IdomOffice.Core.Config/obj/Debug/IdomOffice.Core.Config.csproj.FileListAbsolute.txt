@@ -1,0 +1,8 @@
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\obj\Debug\IdomOffice.Core.Config.csprojResolveAssemblyReference.cache
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\obj\Debug\IdomOffice.Core.Config.csproj.CoreCompileInputs.cache
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\bin\Debug\QTouristik.Core.Config.dll
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\bin\Debug\QTouristik.Core.Config.pdb
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\obj\Debug\QTouristik.Core.Config.dll
+E:\Projects\QTouristikFramework\core\IdomOffice.Core.Config\obj\Debug\QTouristik.Core.Config.pdb

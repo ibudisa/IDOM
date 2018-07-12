@@ -1,0 +1,22 @@
+[
+  {
+    "Key": "MongoUrl",
+    "Value": "mongodb://ivan:ivan+2017@94.23.164.152:27017/IDOM_BackOffice_Test",
+    "KeyType": "System.String"
+  },
+  {
+    "Key": "MongoDB",
+    "Value": "IDOM_BackOffice_Test",
+    "KeyType": "System.String"
+  },
+  {
+    "Key": "Season",
+    "Value": "2018",
+    "KeyType": "System.Int"
+  },
+  {
+    "Key": "Date",
+    "Value": "12.05.2018",
+    "KeyType": "System.DateTime"
+  }
+]

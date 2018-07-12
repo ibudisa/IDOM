@@ -1,0 +1,13 @@
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\QTouristik.Interface.BackOffice.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\QTouristik.Interface.BackOffice.pdb
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Bson.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Driver.Core.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Driver.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\QTouristik.Data.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Bson.xml
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Driver.xml
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\bin\Debug\MongoDB.Driver.Core.xml
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\obj\Debug\QTouristik.Interface.BackOffice.dll
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\obj\Debug\QTouristik.Interface.BackOffice.pdb
+E:\Projects\QTouristikFramework\Interface\QTouristik.Interface.BackOffice\obj\Debug\QTouristik.Interface.BackOffice.csprojResolveAssemblyReference.cache
