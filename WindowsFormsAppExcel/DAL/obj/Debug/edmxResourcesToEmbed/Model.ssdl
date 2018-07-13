@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IgorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Igor.dbo.dbBuchungen' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="dbBuchungen">
+    <Key>
+      <PropertyRef Name="buchID" />
+      <PropertyRef Name="BuchungsNummer" />
+      <PropertyRef Name="buchGuid" />
+      <PropertyRef Name="buchVermieterID" />
+      <PropertyRef Name="buchUnitId" />
+      <PropertyRef Name="buchAnreise" />
+      <PropertyRef Name="buchAbreise" />
+      <PropertyRef Name="buchListPreis" />
+      <PropertyRef Name="buchVermieterRabat" />
+      <PropertyRef Name="buchGutscheinRabat" />
+      <PropertyRef Name="buchPreisMobilheim" />
+      <PropertyRef Name="buchPreisEndreinung" />
+      <PropertyRef Name="buchPreisEndBetrag" />
+      <PropertyRef Name="buchPreisKaution" />
+      <PropertyRef Name="buchUeberweisungBetrag" />
+      <PropertyRef Name="buchEingangDatum" />
+      <PropertyRef Name="buchCampName" />
+      <PropertyRef Name="buchCampOrt" />
+      <PropertyRef Name="buchAnrede" />
+      <PropertyRef Name="buchVornahme" />
+      <PropertyRef Name="buchNachname" />
+      <PropertyRef Name="buchStrasse" />
+      <PropertyRef Name="buchPlzOrt" />
+      <PropertyRef Name="buchLand" />
+      <PropertyRef Name="buchTelefonNr" />
+      <PropertyRef Name="buchHandyNr" />
+      <PropertyRef Name="buchEmail" />
+      <PropertyRef Name="buchPartnerID" />
+      <PropertyRef Name="buchErwaksene" />
+      <PropertyRef Name="buchKinder" />
+      <PropertyRef Name="buchPortalCode" />
+      <PropertyRef Name="ReisendeJson" />
+    </Key>
+    <Property Name="buchID" Type="int" Nullable="false" />
+    <Property Name="BuchungsNummer" Type="int" Nullable="false" />
+    <Property Name="buchGuid" Type="nchar" MaxLength="36" Nullable="false" />
+    <Property Name="buchVermieterID" Type="int" Nullable="false" />
+    <Property Name="buchUnitId" Type="int" Nullable="false" />
+    <Property Name="buchAnreise" Type="datetime" Nullable="false" />
+    <Property Name="buchAbreise" Type="datetime" Nullable="false" />
+    <Property Name="buchBuchungsDatum" Type="datetime" />
+    <Property Name="buchListPreis" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchVermieterRabat" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchGutscheinRabat" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchPreisMobilheim" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchPreisEndreinung" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchPreisEndBetrag" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchPreisKaution" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="buchUeberweisungBetrag" Type="decimal" Precision="7" Scale="2" Nullable="false" />
+    <Property Name="buchEingangDatum" Type="datetime" Nullable="false" />
+    <Property Name="buchCampName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="buchCampOrt" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="buchAnrede" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="buchVornahme" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="buchNachname" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="buchStrasse" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="buchPlzOrt" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="buchLand" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="buchTelefonNr" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="buchHandyNr" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="buchEmail" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="buchAnmerkung" Type="varchar(max)" />
+    <Property Name="buchEmailActivation" Type="datetime" />
+    <Property Name="buchGutscheinCode" Type="nchar" MaxLength="10" />
+    <Property Name="buchPartnerID" Type="int" Nullable="false" />
+    <Property Name="buchErwaksene" Type="int" Nullable="false" />
+    <Property Name="buchKinder" Type="int" Nullable="false" />
+    <Property Name="buchPortalCode" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="ReisendeJson" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BookingNumber" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Igor.dbo.dbGeoLocation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="dbGeoLocation">
+    <Key>
+      <PropertyRef Name="geoTyp" />
+      <PropertyRef Name="geoID" />
+      <PropertyRef Name="geoName" />
+    </Key>
+    <Property Name="geoTyp" Type="smallint" Nullable="false" />
+    <Property Name="geoID" Type="int" Nullable="false" />
+    <Property Name="geoName" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="geoParent" Type="int" />
+  </EntityType>
+  <EntityType Name="SEH_SiteInfo">
+    <Key>
+      <PropertyRef Name="soObjektId" />
+    </Key>
+    <Property Name="soObjektId" Type="int" Nullable="false" />
+    <Property Name="soOrtId" Type="int" Nullable="false" />
+    <Property Name="soRegion" Type="int" Nullable="false" />
+    <Property Name="soKurzBeschreibung" Type="nvarchar" MaxLength="50" />
+    <Property Name="soLangBeschreibung" Type="nvarchar" MaxLength="1000" />
+    <Property Name="soImageLocation" Type="nchar" MaxLength="200" Nullable="false" />
+    <Property Name="soRouteObjektId" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="soRouteObjektTyp" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Pool" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="SiteCode" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SEH_UnitInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="suUnitId" Type="int" Nullable="false" />
+    <Property Name="suObjektId" Type="int" Nullable="false" />
+    <Property Name="suKurzBeschreibung" Type="nvarchar" MaxLength="50" />
+    <Property Name="suLangBeschreibung" Type="nvarchar" MaxLength="1000" />
+    <Property Name="suImageLocation" Type="nchar" MaxLength="200" Nullable="false" />
+    <Property Name="suRouteObjektId" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="suRouteObjektTyp" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="suAngebotVon" Type="datetime" Nullable="false" />
+    <Property Name="suAngebotBis" Type="datetime" Nullable="false" />
+    <Property Name="suFreeUnitCount" Type="int" Nullable="false" />
+    <Property Name="suMaxBelegung" Type="int" Nullable="false" />
+    <Property Name="suMaxErwachsener" Type="int" Nullable="false" />
+    <Property Name="suTourOperator" Type="int" Nullable="false" />
+    <Property Name="suHund" Type="int" Nullable="false" />
+    <Property Name="suBettwaesche" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="suGeschirrspueler" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="suMHGroße" Type="int" Nullable="false" />
+    <Property Name="suSchlafzimmer" Type="int" Nullable="false" />
+    <Property Name="suIsActive" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="SiteCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="UnitOfferCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="suLeistungstraegerId" Type="int" Nullable="false" />
+    <Property Name="suIsActiveUnit" Type="nvarchar" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SEH_UnitInfo_SEH_SiteInfo">
+    <End Role="SEH_SiteInfo" Type="Self.SEH_SiteInfo" Multiplicity="1" />
+    <End Role="SEH_UnitInfo" Type="Self.SEH_UnitInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SEH_SiteInfo">
+        <PropertyRef Name="soObjektId" />
+      </Principal>
+      <Dependent Role="SEH_UnitInfo">
+        <PropertyRef Name="suObjektId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="IgorModelStoreContainer">
+    <EntitySet Name="SEH_SiteInfo" EntityType="Self.SEH_SiteInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SEH_UnitInfo" EntityType="Self.SEH_UnitInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dbBuchungen" EntityType="Self.dbBuchungen" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [dbBuchungen].[buchID] AS [buchID], 
+    [dbBuchungen].[BuchungsNummer] AS [BuchungsNummer], 
+    [dbBuchungen].[buchGuid] AS [buchGuid], 
+    [dbBuchungen].[buchVermieterID] AS [buchVermieterID], 
+    [dbBuchungen].[buchUnitId] AS [buchUnitId], 
+    [dbBuchungen].[buchAnreise] AS [buchAnreise], 
+    [dbBuchungen].[buchAbreise] AS [buchAbreise], 
+    [dbBuchungen].[buchBuchungsDatum] AS [buchBuchungsDatum], 
+    [dbBuchungen].[buchListPreis] AS [buchListPreis], 
+    [dbBuchungen].[buchVermieterRabat] AS [buchVermieterRabat], 
+    [dbBuchungen].[buchGutscheinRabat] AS [buchGutscheinRabat], 
+    [dbBuchungen].[buchPreisMobilheim] AS [buchPreisMobilheim], 
+    [dbBuchungen].[buchPreisEndreinung] AS [buchPreisEndreinung], 
+    [dbBuchungen].[buchPreisEndBetrag] AS [buchPreisEndBetrag], 
+    [dbBuchungen].[buchPreisKaution] AS [buchPreisKaution], 
+    [dbBuchungen].[buchUeberweisungBetrag] AS [buchUeberweisungBetrag], 
+    [dbBuchungen].[buchEingangDatum] AS [buchEingangDatum], 
+    [dbBuchungen].[buchCampName] AS [buchCampName], 
+    [dbBuchungen].[buchCampOrt] AS [buchCampOrt], 
+    [dbBuchungen].[buchAnrede] AS [buchAnrede], 
+    [dbBuchungen].[buchVornahme] AS [buchVornahme], 
+    [dbBuchungen].[buchNachname] AS [buchNachname], 
+    [dbBuchungen].[buchStrasse] AS [buchStrasse], 
+    [dbBuchungen].[buchPlzOrt] AS [buchPlzOrt], 
+    [dbBuchungen].[buchLand] AS [buchLand], 
+    [dbBuchungen].[buchTelefonNr] AS [buchTelefonNr], 
+    [dbBuchungen].[buchHandyNr] AS [buchHandyNr], 
+    [dbBuchungen].[buchEmail] AS [buchEmail], 
+    [dbBuchungen].[buchAnmerkung] AS [buchAnmerkung], 
+    [dbBuchungen].[buchEmailActivation] AS [buchEmailActivation], 
+    [dbBuchungen].[buchGutscheinCode] AS [buchGutscheinCode], 
+    [dbBuchungen].[buchPartnerID] AS [buchPartnerID], 
+    [dbBuchungen].[buchErwaksene] AS [buchErwaksene], 
+    [dbBuchungen].[buchKinder] AS [buchKinder], 
+    [dbBuchungen].[buchPortalCode] AS [buchPortalCode], 
+    [dbBuchungen].[ReisendeJson] AS [ReisendeJson], 
+    [dbBuchungen].[BookingNumber] AS [BookingNumber]
+    FROM [dbo].[dbBuchungen] AS [dbBuchungen]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="dbGeoLocation" EntityType="Self.dbGeoLocation" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [dbGeoLocation].[geoTyp] AS [geoTyp], 
+    [dbGeoLocation].[geoID] AS [geoID], 
+    [dbGeoLocation].[geoName] AS [geoName], 
+    [dbGeoLocation].[geoParent] AS [geoParent]
+    FROM [dbo].[dbGeoLocation] AS [dbGeoLocation]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_SEH_UnitInfo_SEH_SiteInfo" Association="Self.FK_SEH_UnitInfo_SEH_SiteInfo">
+      <End Role="SEH_SiteInfo" EntitySet="SEH_SiteInfo" />
+      <End Role="SEH_UnitInfo" EntitySet="SEH_UnitInfo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

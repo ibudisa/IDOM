@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="V3_OHV_SearchModelStoreContainer" CdmEntityContainer="OHV_V3_SearchEntities">
+    <EntitySetMapping Name="KeyDatabaseSets">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.KeyDatabaseSet)">
+        <MappingFragment StoreEntitySet="KeyDatabaseSets">
+          <ScalarProperty Name="AppKeyCode" ColumnName="AppKeyCode" />
+          <ScalarProperty Name="KeyCounter" ColumnName="KeyCounter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SD_PartnerSet">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SD_PartnerSet)">
+        <MappingFragment StoreEntitySet="SD_PartnerSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LogoImage" ColumnName="LogoImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_FeWoPreiseSet">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_FeWoPreiseSet)">
+        <MappingFragment StoreEntitySet="SEH_FeWoPreiseSet">
+          <ScalarProperty Name="Angebot_Id" ColumnName="Angebot_Id" />
+          <ScalarProperty Name="counter" ColumnName="counter" />
+          <ScalarProperty Name="Anreise" ColumnName="Anreise" />
+          <ScalarProperty Name="Reisedauer" ColumnName="Reisedauer" />
+          <ScalarProperty Name="MinPersonen" ColumnName="MinPersonen" />
+          <ScalarProperty Name="MaxPersonen" ColumnName="MaxPersonen" />
+          <ScalarProperty Name="ListenPreis" ColumnName="ListenPreis" />
+          <ScalarProperty Name="EndPreis" ColumnName="EndPreis" />
+          <ScalarProperty Name="DealCode" ColumnName="DealCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_ObjektInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_ObjektInfo)">
+        <MappingFragment StoreEntitySet="SEH_ObjektInfo">
+          <ScalarProperty Name="soObjektId" ColumnName="soObjektId" />
+          <ScalarProperty Name="soOrtId" ColumnName="soOrtId" />
+          <ScalarProperty Name="soRegion" ColumnName="soRegion" />
+          <ScalarProperty Name="soKurzBeschreibung" ColumnName="soKurzBeschreibung" />
+          <ScalarProperty Name="soLangBeschreibung" ColumnName="soLangBeschreibung" />
+          <ScalarProperty Name="soImageLocation" ColumnName="soImageLocation" />
+          <ScalarProperty Name="soRouteObjektId" ColumnName="soRouteObjektId" />
+          <ScalarProperty Name="soRouteObjektTyp" ColumnName="soRouteObjektTyp" />
+          <ScalarProperty Name="Pool" ColumnName="Pool" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_PlaceInfoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_PlaceInfoSet)">
+        <MappingFragment StoreEntitySet="SEH_PlaceInfoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PlaceName" ColumnName="PlaceName" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="IsInsel" ColumnName="IsInsel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_PortalSet">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_PortalSet)">
+        <MappingFragment StoreEntitySet="SEH_PortalSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PortalCode" ColumnName="PortalCode" />
+          <ScalarProperty Name="TourOperator" ColumnName="TourOperator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_RegionInfoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_RegionInfoSet)">
+        <MappingFragment StoreEntitySet="SEH_RegionInfoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_UnitInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.SEH_UnitInfo)">
+        <MappingFragment StoreEntitySet="SEH_UnitInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="suUnitId" ColumnName="suUnitId" />
+          <ScalarProperty Name="suObjektId" ColumnName="suObjektId" />
+          <ScalarProperty Name="suKurzBeschreibung" ColumnName="suKurzBeschreibung" />
+          <ScalarProperty Name="suLangBeschreibung" ColumnName="suLangBeschreibung" />
+          <ScalarProperty Name="suImageLocation" ColumnName="suImageLocation" />
+          <ScalarProperty Name="suRouteObjektId" ColumnName="suRouteObjektId" />
+          <ScalarProperty Name="suRouteObjektTyp" ColumnName="suRouteObjektTyp" />
+          <ScalarProperty Name="suAngebotVon" ColumnName="suAngebotVon" />
+          <ScalarProperty Name="suAngebotBis" ColumnName="suAngebotBis" />
+          <ScalarProperty Name="suFreeUnitCount" ColumnName="suFreeUnitCount" />
+          <ScalarProperty Name="suMaxBelegung" ColumnName="suMaxBelegung" />
+          <ScalarProperty Name="suMaxErwachsener" ColumnName="suMaxErwachsener" />
+          <ScalarProperty Name="suTourOperator" ColumnName="suTourOperator" />
+          <ScalarProperty Name="suHund" ColumnName="suHund" />
+          <ScalarProperty Name="suBettwaesche" ColumnName="suBettwaesche" />
+          <ScalarProperty Name="suGeschirrspueler" ColumnName="suGeschirrspueler" />
+          <ScalarProperty Name="suMHGroße" ColumnName="suMHGroße" />
+          <ScalarProperty Name="suSchlafzimmer" ColumnName="suSchlafzimmer" />
+          <ScalarProperty Name="suIsActive" ColumnName="suIsActive" />
+          <ScalarProperty Name="suLeistungstraegerId" ColumnName="suLeistungstraegerId" />
+          <ScalarProperty Name="suSiteCode" ColumnName="suSiteCode" />
+          <ScalarProperty Name="suOfferCode" ColumnName="suOfferCode" />
+          <ScalarProperty Name="suAnbieterHinweis" ColumnName="suAnbieterHinweis" />
+          <ScalarProperty Name="SuSort" ColumnName="SuSort" />
+          <ScalarProperty Name="TourOperatorCode" ColumnName="TourOperatorCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dbGeoLocations">
+      <EntityTypeMapping TypeName="IsTypeOf(V3_OHV_SearchModel.dbGeoLocation)">
+        <MappingFragment StoreEntitySet="dbGeoLocations">
+          <ScalarProperty Name="geoTyp" ColumnName="geoTyp" />
+          <ScalarProperty Name="geoID" ColumnName="geoID" />
+          <ScalarProperty Name="geoName" ColumnName="geoName" />
+          <ScalarProperty Name="geoParent" ColumnName="geoParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

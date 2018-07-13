@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppExcel", "WindowsFormsAppExcel\WindowsFormsAppExcel.csproj", "{7EF6F8AF-8A2A-4E63-A69A-99F15CA66A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{42977133-D26D-4B09-A457-285B5FF5FB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{315348C1-9918-4147-89D2-5E2D3B4E1116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF6F8AF-8A2A-4E63-A69A-99F15CA66A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF6F8AF-8A2A-4E63-A69A-99F15CA66A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF6F8AF-8A2A-4E63-A69A-99F15CA66A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF6F8AF-8A2A-4E63-A69A-99F15CA66A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42977133-D26D-4B09-A457-285B5FF5FB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42977133-D26D-4B09-A457-285B5FF5FB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42977133-D26D-4B09-A457-285B5FF5FB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42977133-D26D-4B09-A457-285B5FF5FB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315348C1-9918-4147-89D2-5E2D3B4E1116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315348C1-9918-4147-89D2-5E2D3B4E1116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315348C1-9918-4147-89D2-5E2D3B4E1116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315348C1-9918-4147-89D2-5E2D3B4E1116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D936E755-045F-4C96-8A80-8D623C844428}
+	EndGlobalSection
+EndGlobal

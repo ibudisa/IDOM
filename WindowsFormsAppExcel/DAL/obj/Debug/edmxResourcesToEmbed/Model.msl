@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IgorModelStoreContainer" CdmEntityContainer="IgorEntities">
+    <EntitySetMapping Name="SEH_SiteInfo">
+      <EntityTypeMapping TypeName="IgorModel.SEH_SiteInfo">
+        <MappingFragment StoreEntitySet="SEH_SiteInfo">
+          <ScalarProperty Name="soObjektId" ColumnName="soObjektId" />
+          <ScalarProperty Name="soOrtId" ColumnName="soOrtId" />
+          <ScalarProperty Name="soRegion" ColumnName="soRegion" />
+          <ScalarProperty Name="soKurzBeschreibung" ColumnName="soKurzBeschreibung" />
+          <ScalarProperty Name="soLangBeschreibung" ColumnName="soLangBeschreibung" />
+          <ScalarProperty Name="soImageLocation" ColumnName="soImageLocation" />
+          <ScalarProperty Name="soRouteObjektId" ColumnName="soRouteObjektId" />
+          <ScalarProperty Name="soRouteObjektTyp" ColumnName="soRouteObjektTyp" />
+          <ScalarProperty Name="Pool" ColumnName="Pool" />
+          <ScalarProperty Name="SiteCode" ColumnName="SiteCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEH_UnitInfo">
+      <EntityTypeMapping TypeName="IgorModel.SEH_UnitInfo">
+        <MappingFragment StoreEntitySet="SEH_UnitInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="suUnitId" ColumnName="suUnitId" />
+          <ScalarProperty Name="suObjektId" ColumnName="suObjektId" />
+          <ScalarProperty Name="suKurzBeschreibung" ColumnName="suKurzBeschreibung" />
+          <ScalarProperty Name="suLangBeschreibung" ColumnName="suLangBeschreibung" />
+          <ScalarProperty Name="suImageLocation" ColumnName="suImageLocation" />
+          <ScalarProperty Name="suRouteObjektId" ColumnName="suRouteObjektId" />
+          <ScalarProperty Name="suRouteObjektTyp" ColumnName="suRouteObjektTyp" />
+          <ScalarProperty Name="suAngebotVon" ColumnName="suAngebotVon" />
+          <ScalarProperty Name="suAngebotBis" ColumnName="suAngebotBis" />
+          <ScalarProperty Name="suFreeUnitCount" ColumnName="suFreeUnitCount" />
+          <ScalarProperty Name="suMaxBelegung" ColumnName="suMaxBelegung" />
+          <ScalarProperty Name="suMaxErwachsener" ColumnName="suMaxErwachsener" />
+          <ScalarProperty Name="suTourOperator" ColumnName="suTourOperator" />
+          <ScalarProperty Name="suHund" ColumnName="suHund" />
+          <ScalarProperty Name="suBettwaesche" ColumnName="suBettwaesche" />
+          <ScalarProperty Name="suGeschirrspueler" ColumnName="suGeschirrspueler" />
+          <ScalarProperty Name="suMHGroße" ColumnName="suMHGroße" />
+          <ScalarProperty Name="suSchlafzimmer" ColumnName="suSchlafzimmer" />
+          <ScalarProperty Name="suIsActive" ColumnName="suIsActive" />
+          <ScalarProperty Name="SiteCode" ColumnName="SiteCode" />
+          <ScalarProperty Name="UnitOfferCode" ColumnName="UnitOfferCode" />
+          <ScalarProperty Name="suLeistungstraegerId" ColumnName="suLeistungstraegerId" />
+          <ScalarProperty Name="suIsActiveUnit" ColumnName="suIsActiveUnit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dbBuchungens">
+      <EntityTypeMapping TypeName="IgorModel.dbBuchungen">
+        <MappingFragment StoreEntitySet="dbBuchungen">
+          <ScalarProperty Name="buchID" ColumnName="buchID" />
+          <ScalarProperty Name="BuchungsNummer" ColumnName="BuchungsNummer" />
+          <ScalarProperty Name="buchGuid" ColumnName="buchGuid" />
+          <ScalarProperty Name="buchVermieterID" ColumnName="buchVermieterID" />
+          <ScalarProperty Name="buchUnitId" ColumnName="buchUnitId" />
+          <ScalarProperty Name="buchAnreise" ColumnName="buchAnreise" />
+          <ScalarProperty Name="buchAbreise" ColumnName="buchAbreise" />
+          <ScalarProperty Name="buchBuchungsDatum" ColumnName="buchBuchungsDatum" />
+          <ScalarProperty Name="buchListPreis" ColumnName="buchListPreis" />
+          <ScalarProperty Name="buchVermieterRabat" ColumnName="buchVermieterRabat" />
+          <ScalarProperty Name="buchGutscheinRabat" ColumnName="buchGutscheinRabat" />
+          <ScalarProperty Name="buchPreisMobilheim" ColumnName="buchPreisMobilheim" />
+          <ScalarProperty Name="buchPreisEndreinung" ColumnName="buchPreisEndreinung" />
+          <ScalarProperty Name="buchPreisEndBetrag" ColumnName="buchPreisEndBetrag" />
+          <ScalarProperty Name="buchPreisKaution" ColumnName="buchPreisKaution" />
+          <ScalarProperty Name="buchUeberweisungBetrag" ColumnName="buchUeberweisungBetrag" />
+          <ScalarProperty Name="buchEingangDatum" ColumnName="buchEingangDatum" />
+          <ScalarProperty Name="buchCampName" ColumnName="buchCampName" />
+          <ScalarProperty Name="buchCampOrt" ColumnName="buchCampOrt" />
+          <ScalarProperty Name="buchAnrede" ColumnName="buchAnrede" />
+          <ScalarProperty Name="buchVornahme" ColumnName="buchVornahme" />
+          <ScalarProperty Name="buchNachname" ColumnName="buchNachname" />
+          <ScalarProperty Name="buchStrasse" ColumnName="buchStrasse" />
+          <ScalarProperty Name="buchPlzOrt" ColumnName="buchPlzOrt" />
+          <ScalarProperty Name="buchLand" ColumnName="buchLand" />
+          <ScalarProperty Name="buchTelefonNr" ColumnName="buchTelefonNr" />
+          <ScalarProperty Name="buchHandyNr" ColumnName="buchHandyNr" />
+          <ScalarProperty Name="buchEmail" ColumnName="buchEmail" />
+          <ScalarProperty Name="buchAnmerkung" ColumnName="buchAnmerkung" />
+          <ScalarProperty Name="buchEmailActivation" ColumnName="buchEmailActivation" />
+          <ScalarProperty Name="buchGutscheinCode" ColumnName="buchGutscheinCode" />
+          <ScalarProperty Name="buchPartnerID" ColumnName="buchPartnerID" />
+          <ScalarProperty Name="buchErwaksene" ColumnName="buchErwaksene" />
+          <ScalarProperty Name="buchKinder" ColumnName="buchKinder" />
+          <ScalarProperty Name="buchPortalCode" ColumnName="buchPortalCode" />
+          <ScalarProperty Name="ReisendeJson" ColumnName="ReisendeJson" />
+          <ScalarProperty Name="BookingNumber" ColumnName="BookingNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dbGeoLocations">
+      <EntityTypeMapping TypeName="IgorModel.dbGeoLocation">
+        <MappingFragment StoreEntitySet="dbGeoLocation">
+          <ScalarProperty Name="geoTyp" ColumnName="geoTyp" />
+          <ScalarProperty Name="geoID" ColumnName="geoID" />
+          <ScalarProperty Name="geoName" ColumnName="geoName" />
+          <ScalarProperty Name="geoParent" ColumnName="geoParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

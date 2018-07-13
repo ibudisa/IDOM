@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86cfe130ecaf46c4a63a3acfffa4ad6f" Name="Diagram1">
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.KeyDatabaseSet" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SD_PartnerSet" Width="1.5" PointX="0.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_FeWoPreiseSet" Width="1.875" PointX="0.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_ObjektInfo" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_PlaceInfoSet" Width="1.5" PointX="2.625" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_PortalSet" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_RegionInfoSet" Width="1.5" PointX="8.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.SEH_UnitInfo" Width="1.5" PointX="6.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="V3_OHV_SearchModel.dbGeoLocation" Width="1.5" PointX="4.375" PointY="3.875" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

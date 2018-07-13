@@ -1,0 +1,7 @@
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\bin\Debug\QTouristik.Interface.Search_v1.5.dll
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\bin\Debug\QTouristik.PlugIn.OVH_V9.Search_v.1.5.dll.config
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\bin\Debug\QTouristik.PlugIn.OVH_V9.Search_v.1.5.dll
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\bin\Debug\QTouristik.PlugIn.OVH_V9.Search_v.1.5.pdb
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\obj\Debug\QTouristik.PlugIn.OVH_V9.Search_v.1.5.dll
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\obj\Debug\QTouristik.PlugIn.OVH_V9.Search_v.1.5.pdb
+F:\GIT_2017\QFramework\PlugIn\QTouristik.PlugIn.OVH_V9.Search\obj\Debug\QTouristik.PlugIn.OVH_V9.Search.csprojResolveAssemblyReference.cache

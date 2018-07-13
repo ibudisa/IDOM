@@ -1,0 +1,15 @@
+F:\GIT_2017\Version_V1.6\QFramework\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll.config
+F:\GIT_2017\Version_V1.6\QFramework\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll
+F:\GIT_2017\Version_V1.6\QFramework\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.pdb
+F:\GIT_2017\Version_V1.6\QFramework\PlugIn\QTouristik.PlugIn.OVH_V10.Search\obj\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll
+F:\GIT_2017\Version_V1.6\QFramework\PlugIn\QTouristik.PlugIn.OVH_V10.Search\obj\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.pdb
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\obj\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\obj\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.pdb
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll.config
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.PlugIn.OVH_V10.Search_v.1.6.pdb
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.Interface.Search_v1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.Utility.PriceCalculator_v1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.Interface.Sync_v1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\bin\Debug\QTouristik.Data_v1.6.dll
+F:\GIT_Net\Version_V1.6\QFramework_V1.6\PlugIn\QTouristik.PlugIn.OVH_V10.Search\obj\Debug\QTouristik.PlugIn.OVH_V10.Search.csprojResolveAssemblyReference.cache

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="V3_OHV_SearchModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="V3_OHV_SearchModelStoreContainer">
+    <EntitySet Name="KeyDatabaseSets" EntityType="V3_OHV_SearchModel.Store.KeyDatabaseSets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SD_PartnerSet" EntityType="V3_OHV_SearchModel.Store.SD_PartnerSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_FeWoPreiseSet" EntityType="V3_OHV_SearchModel.Store.SEH_FeWoPreiseSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_ObjektInfo" EntityType="V3_OHV_SearchModel.Store.SEH_ObjektInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_PlaceInfoSet" EntityType="V3_OHV_SearchModel.Store.SEH_PlaceInfoSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_PortalSet" EntityType="V3_OHV_SearchModel.Store.SEH_PortalSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_RegionInfoSet" EntityType="V3_OHV_SearchModel.Store.SEH_RegionInfoSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEH_UnitInfo" EntityType="V3_OHV_SearchModel.Store.SEH_UnitInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="dbGeoLocations" EntityType="V3_OHV_SearchModel.Store.dbGeoLocations" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="KeyDatabaseSets">
+    <Key>
+      <PropertyRef Name="AppKeyCode" />
+    </Key>
+    <Property Name="AppKeyCode" Type="nvarchar" Nullable="false" MaxLength="12" />
+    <Property Name="KeyCounter" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SD_PartnerSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="smallint" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LogoImage" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="SEH_FeWoPreiseSet">
+    <Key>
+      <PropertyRef Name="Angebot_Id" />
+      <PropertyRef Name="counter" />
+    </Key>
+    <Property Name="Angebot_Id" Type="int" Nullable="false" />
+    <Property Name="counter" Type="int" Nullable="false" />
+    <Property Name="Anreise" Type="datetime" Nullable="false" />
+    <Property Name="Reisedauer" Type="smallint" Nullable="false" />
+    <Property Name="MinPersonen" Type="smallint" Nullable="false" />
+    <Property Name="MaxPersonen" Type="smallint" Nullable="false" />
+    <Property Name="ListenPreis" Type="decimal" Nullable="false" Precision="7" Scale="2" />
+    <Property Name="EndPreis" Type="decimal" Nullable="false" Precision="7" Scale="2" />
+    <Property Name="DealCode" Type="nvarchar" Nullable="true" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="SEH_ObjektInfo">
+    <Key>
+      <PropertyRef Name="soObjektId" />
+    </Key>
+    <Property Name="soObjektId" Type="int" Nullable="false" />
+    <Property Name="soOrtId" Type="int" Nullable="false" />
+    <Property Name="soRegion" Type="int" Nullable="false" />
+    <Property Name="soKurzBeschreibung" Type="nvarchar" Nullable="true" MaxLength="80" />
+    <Property Name="soLangBeschreibung" Type="nvarchar" Nullable="true" MaxLength="1000" />
+    <Property Name="soImageLocation" Type="nchar" Nullable="false" MaxLength="200" />
+    <Property Name="soRouteObjektId" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="soRouteObjektTyp" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="Pool" Type="nvarchar" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="SEH_PlaceInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="PlaceName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="RegionId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsInsel" Type="nvarchar" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="SEH_PortalSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PortalCode" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="TourOperator" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_RegionInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="RegionName" Type="nvarchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="SEH_UnitInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="suUnitId" Type="int" Nullable="false" />
+    <Property Name="suObjektId" Type="int" Nullable="false" />
+    <Property Name="suKurzBeschreibung" Type="nvarchar" Nullable="true" MaxLength="80" />
+    <Property Name="suLangBeschreibung" Type="nvarchar" Nullable="true" MaxLength="1000" />
+    <Property Name="suImageLocation" Type="nchar" Nullable="false" MaxLength="200" />
+    <Property Name="suRouteObjektId" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="suRouteObjektTyp" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="suAngebotVon" Type="datetime" Nullable="false" />
+    <Property Name="suAngebotBis" Type="datetime" Nullable="false" />
+    <Property Name="suFreeUnitCount" Type="int" Nullable="false" />
+    <Property Name="suMaxBelegung" Type="int" Nullable="false" />
+    <Property Name="suMaxErwachsener" Type="int" Nullable="false" />
+    <Property Name="suTourOperator" Type="int" Nullable="false" />
+    <Property Name="suHund" Type="int" Nullable="false" />
+    <Property Name="suBettwaesche" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="suGeschirrspueler" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="suMHGroße" Type="int" Nullable="false" />
+    <Property Name="suSchlafzimmer" Type="int" Nullable="false" />
+    <Property Name="suIsActive" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="suLeistungstraegerId" Type="int" Nullable="false" />
+    <Property Name="suSiteCode" Type="nvarchar" Nullable="false" MaxLength="12" />
+    <Property Name="suOfferCode" Type="nvarchar" Nullable="false" MaxLength="12" />
+    <Property Name="suAnbieterHinweis" Type="nvarchar" Nullable="true" MaxLength="600" />
+    <Property Name="SuSort" Type="int" Nullable="true" />
+    <Property Name="TourOperatorCode" Type="nvarchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="dbGeoLocations">
+    <Key>
+      <PropertyRef Name="geoTyp" />
+      <PropertyRef Name="geoID" />
+      <PropertyRef Name="geoName" />
+    </Key>
+    <Property Name="geoTyp" Type="smallint" Nullable="false" />
+    <Property Name="geoID" Type="int" Nullable="false" />
+    <Property Name="geoName" Type="nchar" Nullable="false" MaxLength="50" />
+    <Property Name="geoParent" Type="int" Nullable="true" />
+  </EntityType>
+</Schema>

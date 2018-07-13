@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="V3_OHV_SearchModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KeyDatabaseSet">
+    <Key>
+      <PropertyRef Name="AppKeyCode" />
+    </Key>
+    <Property Name="AppKeyCode" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KeyCounter" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SD_PartnerSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int16" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LogoImage" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_FeWoPreiseSet">
+    <Key>
+      <PropertyRef Name="Angebot_Id" />
+      <PropertyRef Name="counter" />
+    </Key>
+    <Property Name="Angebot_Id" Type="Int32" Nullable="false" />
+    <Property Name="counter" Type="Int32" Nullable="false" />
+    <Property Name="Anreise" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Reisedauer" Type="Int16" Nullable="false" />
+    <Property Name="MinPersonen" Type="Int16" Nullable="false" />
+    <Property Name="MaxPersonen" Type="Int16" Nullable="false" />
+    <Property Name="ListenPreis" Type="Decimal" Precision="7" Scale="2" Nullable="false" />
+    <Property Name="EndPreis" Type="Decimal" Precision="7" Scale="2" Nullable="false" />
+    <Property Name="DealCode" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SEH_ObjektInfo">
+    <Key>
+      <PropertyRef Name="soObjektId" />
+    </Key>
+    <Property Name="soObjektId" Type="Int32" Nullable="false" />
+    <Property Name="soOrtId" Type="Int32" Nullable="false" />
+    <Property Name="soRegion" Type="Int32" Nullable="false" />
+    <Property Name="soKurzBeschreibung" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="soLangBeschreibung" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="soImageLocation" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="soRouteObjektId" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="soRouteObjektTyp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pool" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_PlaceInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="PlaceName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RegionId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsInsel" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_PortalSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PortalCode" Type="String" MaxLength="8" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TourOperator" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_RegionInfoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="RegionName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEH_UnitInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="suUnitId" Type="Int32" Nullable="false" />
+    <Property Name="suObjektId" Type="Int32" Nullable="false" />
+    <Property Name="suKurzBeschreibung" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="suLangBeschreibung" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="suImageLocation" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="suRouteObjektId" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suRouteObjektTyp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suAngebotVon" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="suAngebotBis" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="suFreeUnitCount" Type="Int32" Nullable="false" />
+    <Property Name="suMaxBelegung" Type="Int32" Nullable="false" />
+    <Property Name="suMaxErwachsener" Type="Int32" Nullable="false" />
+    <Property Name="suTourOperator" Type="Int32" Nullable="false" />
+    <Property Name="suHund" Type="Int32" Nullable="false" />
+    <Property Name="suBettwaesche" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suGeschirrspueler" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suMHGroße" Type="Int32" Nullable="false" />
+    <Property Name="suSchlafzimmer" Type="Int32" Nullable="false" />
+    <Property Name="suIsActive" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suLeistungstraegerId" Type="Int32" Nullable="false" />
+    <Property Name="suSiteCode" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suOfferCode" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="suAnbieterHinweis" Type="String" MaxLength="600" FixedLength="false" Unicode="true" />
+    <Property Name="SuSort" Type="Int32" />
+    <Property Name="TourOperatorCode" Type="String" MaxLength="10" Nullable="true" />
+  </EntityType>
+  <EntityType Name="dbGeoLocation">
+    <Key>
+      <PropertyRef Name="geoTyp" />
+      <PropertyRef Name="geoID" />
+      <PropertyRef Name="geoName" />
+    </Key>
+    <Property Name="geoTyp" Type="Int16" Nullable="false" />
+    <Property Name="geoID" Type="Int32" Nullable="false" />
+    <Property Name="geoName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="geoParent" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="OHV_V3_SearchEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KeyDatabaseSets" EntityType="Self.KeyDatabaseSet" />
+    <EntitySet Name="SD_PartnerSet" EntityType="Self.SD_PartnerSet" />
+    <EntitySet Name="SEH_FeWoPreiseSet" EntityType="Self.SEH_FeWoPreiseSet" />
+    <EntitySet Name="SEH_ObjektInfo" EntityType="Self.SEH_ObjektInfo" />
+    <EntitySet Name="SEH_PlaceInfoSet" EntityType="Self.SEH_PlaceInfoSet" />
+    <EntitySet Name="SEH_PortalSet" EntityType="Self.SEH_PortalSet" />
+    <EntitySet Name="SEH_RegionInfoSet" EntityType="Self.SEH_RegionInfoSet" />
+    <EntitySet Name="SEH_UnitInfo" EntityType="Self.SEH_UnitInfo" />
+    <EntitySet Name="dbGeoLocations" EntityType="Self.dbGeoLocation" />
+  </EntityContainer>
+</Schema>
